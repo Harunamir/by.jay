@@ -1,2 +1,9 @@
-{"rewrites":[{"source":"/(.*)","destination":"/"}]}// Force redeploy 
-// Force redeploy 
+{ 
+  "version": 2, 
+  "builds": [ 
+    { 
+      "src": "*.html", 
+      "use": "@vercel/static" 
+    } 
+  ] 
+} 
