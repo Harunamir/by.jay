@@ -1,1 +1,2 @@
 {"rewrites":[{"source":"/(.*)","destination":"/"}]}// Force redeploy 
+// Force redeploy 
